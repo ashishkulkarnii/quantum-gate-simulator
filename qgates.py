@@ -77,7 +77,7 @@ def cx1(q2, q1):
     quit()
 
 def cx2(q1, q2):
-    if measureQubit(control) == "|0>":
+    if measureQubit(q1) == "|0>":
         print("The measurement of q1 is: |0>")
         print("The measurement of q2 is:",measureQubit(q2))
     else:
