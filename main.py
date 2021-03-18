@@ -6,7 +6,7 @@ from time import sleep
 clear()
 
 
-print("There are two qubits: q1 and q2.\nThe probability amplitude of each qubit, upon measurement, collapses into one of the probable outcomes: |0> or |1>.\nSo, upon completion of program, or upon usage of gates that require measurement, the probabilities will collapse and the output will be displayed.\n\nh - Hadamart Gate, x - Pauli-X Gate, y - Pauli-Y Gate, z - Pauli-Z Gate, cx, cy, cz - Controlled Gates\n")
+print("There are two qubits: q1 and q2.\nThe probability amplitude of each qubit, upon measurement, collapses into one of the probable outcomes: |0> or |1>.\nSo, upon completion of program, or upon usage of gates that require measurement, the probabilities will collapse and the output will be displayed.\n\nh - Hadamard Gate, x - Pauli-X Gate, y - Pauli-Y Gate, z - Pauli-Z Gate, cx, cy, cz - Controlled Gates\n")
 
 q1 = input("Enter the quantum state of q1: (0 for |0>, and 1 for |1>) ")
 q1 = ket(int(q1))
@@ -30,7 +30,7 @@ def main(q1, q2):
     if q == '1':
     
         if g == 'h':
-            q1 = hadamart(q1)
+            q1 = hadamard(q1)
         
         elif g == 'x':
             q1 = pauliX(q1)
@@ -67,7 +67,7 @@ def main(q1, q2):
     if q == '2':
     
         if g == 'h':
-            q2 = hadamart(q2)
+            q2 = hadamard(q2)
         
         elif g == 'x':
             q2 = pauliX(q2)
