@@ -39,7 +39,7 @@ def measurementStatement(q1, q2):
 #all arguments are lists of the form [<vetor representation of qubit>, <chance of ket(0)>, <chance of ket(1)>]
 
 
-def hadamart(k):
+def hadamard(k):
     h = [[1/sqrt(2), 1/sqrt(2)], [1/sqrt(2), -1/sqrt(2)]]
     output = np.dot(h, k[0]).tolist()
     chanceket0 = output[0][0] * output[0][0] * 100
