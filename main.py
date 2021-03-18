@@ -7,10 +7,10 @@ clear()
 
 print("There are two qubits: q1 and q2.")
 
-q1 = input("Enter the quantum state of q1: (0 for ket|o>, and 1 for ket|1>) ")
+q1 = input("Enter the quantum state of q1: (0 for ket|0>, and 1 for ket|1>) ")
 q1 = ket(int(q1))
 
-q2 = input("Enter the quantum state of q2: (0 for ket|o>, and 1 for ket|1>) ")
+q2 = input("Enter the quantum state of q2: (0 for ket|0>, and 1 for ket|1>) ")
 q2 = ket(int(q2))
 
     
