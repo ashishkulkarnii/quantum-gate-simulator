@@ -6,7 +6,7 @@ from time import sleep
 clear()
 
 
-print("There are two qubits: q1 and q2.\n\nThe probability amplitude of each qubit, upon measurement, collapses into one of the probable outcomes: |0> or |1>.\nSo, upon completion of program, or upon usage of gates that require measurement, the probabilities will collapse and the output will be displayed.\n\nh - Hadamard Gate, x - Pauli-X Gate, y - Pauli-Y Gate, z - Pauli-Z Gate, cx, cy, cz - Controlled Gates\n\nUsing a controlled gate will trigger measurement, so be sure to use a controlled gate last.\n\n")
+print("There are two qubits: q1 and q2.\n\nThe probability amplitude of each qubit, upon measurement, collapses into one of the probable outcomes: |0> or |1>.\nSo, upon completion of program, or upon usage of gates that require measurement, the probabilities will collapse and the output will be displayed.\n\nh - Hadamard Gate; x - Pauli-X Gate; y - Pauli-Y Gate; z - Pauli-Z Gate; cx, cy, cz - Controlled Gates\n\nUsing a controlled gate will trigger measurement, so be sure to use a controlled gate last.\n\n")
 
 q1 = input("Enter the quantum state of q1: (0 for |0>, and 1 for |1>) ")
 q1 = ket(int(q1))
